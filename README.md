@@ -27,7 +27,7 @@ composer require al-mamun-devops/laravel-shopping-cart
 ### 2. Publish configuration file
 
 ```bash
-php artisan vendor:publish --tag=config --provider="MamunDev\ShoppingCart\ShoppingCartServiceProvider"
+php artisan vendor:publish --tag=config --provider="AlMamunDevOps\ShoppingCart\ShoppingCartServiceProvider"
 ```
 
 This will publish `config/shoppingcart.php` where you can choose storage type:
