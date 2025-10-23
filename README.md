@@ -19,13 +19,7 @@ A lightweight and reusable **shopping cart package** for **Laravel 12+**, design
 
 ### 1. Add the package via Composer (local or from GitHub)
 
-If you're developing locally:
-```bash
-composer config repositories.al-mamun-devops/laravel-shopping-cart path ./packages/al-mamun-devops/laravel-shopping-cart
-composer require al-mamun-devops/laravel-shopping-cart:dev-main
-```
 
-If published to Packagist:
 ```bash
 composer require al-mamun-devops/laravel-shopping-cart
 ```
