@@ -1,0 +1,22 @@
+{
+    "name": "al-mamun-devops/laravel-shopping-cart",
+    "description": "Lightweight shopping cart for Laravel 12 using session or filesystem (no DB)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlMamunDevOps\\ShoppingCart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlMamunDevOps\\ShoppingCart\\ShoppingCartServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "AlMamunDevOps\\ShoppingCart\\Facades\\Cart"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
